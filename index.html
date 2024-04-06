@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portafolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assect/css/style.css">
+    <script src="https://kit.fontawesome.com/7f4cf4b38b.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./assect/favicom/favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--NOTA: ABRIR EN MOZILLA, YA QUE GOOGLE CHROME NO LO MUESTRA BIEN-->
+    <header>
+        <!--video-->
+
+        <video autoplay loop >
+            <source src="./assect/img/Video/FRANK-PEREZ.mp4" type="video/mp4">
+        </video>
+
+        <!--inicio-->
+
+        <button type="button" class="home btn btn-outline-success  bg-transparent"> <a href="#"><i class="fa-solid fa-house link-light"></i></a></button>
+
+        <!--pestaña-->
+
+        <button class="contac btn btn-success text-light bg-transparent" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="fa-solid fa-mosquito">
+        </i>  Contacto</button>
+
+        <div class="offcanvas offcanvas-start text-light color-pestaña" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+
+          <div class="offcanvas-header">
+
+            <h5 class="offcanvas-title mt-5 mx-5" id="offcanvasWithBothOptionsLabel">CONTACTO</h5>
+
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+          </div>
+
+          <div class="offcanvas-body">
+            <a href="./html secundarios/curriculum {primer desafio}_/index.html" target="_blank" class="link-success">
+                <p>
+                    <i class="fa-solid fa-file"></i> Curriculum
+                </p>
+            </a>
+            <a href="https://wa.me/+56972899630?text=¡Un Saludo! ¿me ayuda con el desafio?" target="_blank" class="link-success">
+                <p>
+                    <i class="fa-brands fa-whatsapp"></i>  WhatsApp
+                </p>
+            </a>
+            <a href="mailto:frankjperez94@gmail.com" target="_blank" class="link-success">
+                <p>
+                    <i class="fa-regular fa-envelope"></i>  Email
+                </p>
+            </a>
+            <a href="https://www.linkedin.com/in/frank-p%C3%A9rez-659b09221?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="link-success">
+                <p>
+                    <i class="fa-brands fa-linkedin-in"></i>  Linkedin
+                </p>
+            </a>
+            <a href="" target="_blank" class="link-success">
+                <p>
+                    <i class="fa-brands fa-instagram"></i> Instagram
+                </p>
+            </a>
+          </div>
+        </div>
+        <!--carrusel boostrap -->
+        <div id="carouselExampleSlidesOnly" class="carousel-slide" data-bs-ride="carousel" data-bs-interval="1000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assect/img/html.jpg" class="d-block w-100" alt="html">
+              </div>
+              <div class="carousel-item">
+                <img src="./assect/img/css.jpg" class="d-block w-100" alt="css">
+              </div>
+              <div class="carousel-item">
+                <img src="./assect/img/javascrip.jpg" class="d-block w-100" alt="javascrip">
+              </div>
+              <div class="carousel-item">
+                <img src="./assect/img/git bash.jpg" class="d-block w-100" alt="git-bash">
+              </div>
+              <div class="carousel-item">
+                <img src="./assect/img/github.jpg" class="d-block w-100" alt="github">
+              </div>
+            </div>
+          </div>
+    </header>
+    <main>
+        <section class="contenedor-tarjetas">
+            <div class="card text-light" style="width: 35%; height: 60%">
+                <img src="./assect/img/tienda de mascotas .png" class="card-img-top" alt="tienda-de-mascotas">
+                <div class="card-body">
+
+                    <!--HACER EL PRIMER COMMIT AQUI, QUITAR EL COMENTARIO PARA QUE EL ENLACE FUNCIONE-->
+
+                  <p class="card-text">Este proyecto de diseño web consistió en la creación de la página oficial para <!--<a href="/html secundarios/tienda mascotas {Segundo Desafio}_/index.html" target="_blank" class="link-success">-->"Villa Mascotas"</a>, una tienda especializada en productos y servicios para mascotas. El objetivo principal era crear una plataforma atractiva, informativa y fácil de usar que transmitiera la esencia del negocio
+                  </p>
+
+                </div>
+              </div>
+
+              <div class="card text-light" style="width: 35%; height: 40%;">
+                <img src="./assect/img/iguana.png" class="card-img-top;" alt="iguana">
+                <div class="card-body">
+
+                    <!--HACER EL segundo COMMIT AQUI, QUITAR EL COMENTARIO PARA QUE EL ENLACE FUNCIONE-->
+
+                  <p class="card-text"><!--<a href="./html secundarios/iguana {tercer desafio}_/index.html" target="_blank" class="link-success">-->"Iguana Page"</a> es una página web diseñada para ser un recurso informativo completo para todo aquel que tenga interés en las iguanas. Su diseño minimalista, con colores oscuros y llamativos, crea una atmósfera elegante y moderna que invita a la exploración.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card text-light" style="width: 35%; height: 40%;">
+                <img src="./assect/img/coppon.png" class="card-img-top" alt="coppon">
+                <div class="card-body">
+
+                  <p class="card-text"><a href="./html secundarios/Cuppon{cuarto desafio}_/index.html" target="_blank" class="link-success">"Coppon"</a> es una página web que te permite encontrar cupones de descuento para una amplia variedad de empresas. Su diseño minimalista y colorido, con tonos pastel y un sistema de tarjetas de Bootstrap, crea una experiencia de usuario amigable e intuitiva.
+                </p>
+                </div>
+              </div>
+
+              <div class="card text-light" style="width: 35%; height: 40%;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmQx7dVKs22cFLCenozWfbahtTb2rUvp3etD0ryJBIaA&s" class="card-img-top" alt="github">
+                <div class="card-body">
+
+                  <p class="card-text"> Un repositorio en <a href="https://github.com/FJPerezChacon" target="_blank" class="link-success">GitHub</a> es una excelente opción para ti. Te permite compartir los proyectos, ideas y conocimientos de una persona con una amplia audiencia, desde amigos y familiares hasta posibles empleadores y clientes.
+                </p>
+                </div>
+              </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <a href="./documentos/Cv frank perez 4-2024.pdf" target="_blank" class="link-success CV" ><i class="fa-solid fa-file"></i>  Curriculum Real</a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+
+

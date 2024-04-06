@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+
+}
+
+header{
+    background-color: rgb(255, 235, 212);
+    border-width: 2px;
+    border-style:outset;
+    border-color: rgb(255, 235, 212);
+    border-radius: 5px;
+}
+
+
+.titulo-principal{
+    color: rgb(148, 175, 148);
+    text-align:center;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+.menu{
+    margin-left: 7%;
+    display:flexbox;
+    line-height: 150%;
+    list-style: none;
+}
+
+.box{
+    width: 350px;
+    height: 320px;
+    float: inline-start;
+    border-style:outset;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 235, 212);
+}
+
+div{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    margin: 10px;
+    color: rgb(148, 175, 148);
+}
+
+.enlace{
+    text-align: center;
+    margin-top: 40px;
+    float: none;
+    
+}
+
+.imagen{
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+p{
+    margin: 10px;
+    color: rgb(141, 165, 141);
+}
+
+footer{
+    position: absolute;
+    border-style:inset;
+    border-width: 2px;
+    border-radius: 5px;
+    background-color: rgb(255, 235, 212) ;
+    width: 99.7%;
+    top: 86%;
+
+}
+
+.footer{
+    margin-left: 5%;
+    float: left;
+}
+
+.lista-footer{
+    display:grid;
+    padding-left: 10px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.enlac-footer{
+    width: 350px;
+    height: 50px;
+
+}
+
+.img-footer{
+    width: 50px;
+    border-radius: 10px;
+}
+
+
+.parrafo-footer{
+    padding-left: 60px;
+    position: relative;
+    bottom: 47px;
+    
+}
