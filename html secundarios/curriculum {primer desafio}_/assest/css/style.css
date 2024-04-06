@@ -1,0 +1,56 @@
+
+body{
+    background-color: rgb(156, 199, 201);
+}
+
+.contenedor-main{
+    background-color:rgb(125, 158, 160) ;
+    display: flex;
+    width: 100%;
+    padding:10px;
+    border: 1px solid white;
+}
+
+img{
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 70%;
+}
+
+.informacion-personal{
+    margin-left: 40%;
+    padding: 10px;
+    padding-top: 60px;
+}
+
+.parrafo{
+    width: 95%;
+    padding: 10px;
+    margin-left: 25px;
+    margin-top: 10px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+h3{
+    text-align: center;
+    text-decoration:underline;
+}
+
+.contenedor-dos{
+    display: flex;
+    margin-bottom: 10px;
+    height: 150px;
+}
+
+.secion-inferior{
+    margin-left: 22%;
+
+}
+
+.secion-inferior h2{
+    text-align: center;
+    text-decoration:underline;
+
+}
