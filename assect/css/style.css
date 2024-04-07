@@ -10,7 +10,7 @@ header{
     display: flex;
     height: 1000px;
     width: 100%;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
 }
 
@@ -36,7 +36,7 @@ video{
 }
 
 .contac{
-    width: 15%;
+    width: 300px;
     font-size: 2rem;
     height:auto;
     position: absolute;
